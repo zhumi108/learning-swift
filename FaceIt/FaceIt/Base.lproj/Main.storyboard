@@ -28,7 +28,7 @@
                                     <userDefinedRuntimeAttribute type="number" keyPath="scale">
                                         <real key="value" value="0.90000000000000002"/>
                                     </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="eyesOpen" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="eyesOpen" value="YES"/>
                                     <userDefinedRuntimeAttribute type="number" keyPath="lineWidth">
                                         <real key="value" value="2"/>
                                     </userDefinedRuntimeAttribute>
@@ -49,6 +49,9 @@
                             <constraint firstItem="Qyv-nI-sc6" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="bcl-pO-yFs"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="faceView" destination="Qyv-nI-sc6" id="9O2-Rc-QcO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

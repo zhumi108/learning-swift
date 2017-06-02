@@ -13,6 +13,7 @@
 		2FFE50351ECDCBBD00A26487 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FFE50341ECDCBBD00A26487 /* Assets.xcassets */; };
 		2FFE50381ECDCBBD00A26487 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FFE50361ECDCBBD00A26487 /* LaunchScreen.storyboard */; };
 		2FFE50411ECDCBE800A26487 /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFE50401ECDCBE800A26487 /* FaceView.swift */; };
+		2FFE50431ECDED6500A26487 /* FacialExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFE50421ECDED6500A26487 /* FacialExpression.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2FFE50371ECDCBBD00A26487 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2FFE50391ECDCBBD00A26487 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2FFE50401ECDCBE800A26487 /* FaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
+		2FFE50421ECDED6500A26487 /* FacialExpression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacialExpression.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				2FFE502F1ECDCBBD00A26487 /* ViewController.swift */,
 				2FFE50401ECDCBE800A26487 /* FaceView.swift */,
+				2FFE50421ECDED6500A26487 /* FacialExpression.swift */,
 				2FFE50311ECDCBBD00A26487 /* Main.storyboard */,
 				2FFE503F1ECDCBC700A26487 /* Supporting Files */,
 			);
@@ -149,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FFE50301ECDCBBD00A26487 /* ViewController.swift in Sources */,
+				2FFE50431ECDED6500A26487 /* FacialExpression.swift in Sources */,
 				2FFE502E1ECDCBBD00A26487 /* AppDelegate.swift in Sources */,
 				2FFE50411ECDCBE800A26487 /* FaceView.swift in Sources */,
 			);
@@ -314,6 +318,7 @@
 				2FFE503E1ECDCBBD00A26487 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
